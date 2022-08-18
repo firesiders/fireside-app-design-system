@@ -1,0 +1,28 @@
+:root {
+	/* border radius */
+	--frsd-xs: "4px";
+	--frsd-sm: "6px";
+	--frsd-md: "8px";
+	--frsd-lg: "12px";
+	--frsd-xl: "16px";
+
+	/* spacing */
+	--frsd-0: "0px";
+	--frsd-2: "2px";
+	--frsd-4: "4px";
+	--frsd-8: "8px";
+	--frsd-10: "10px";
+	--frsd-12: "12px";
+	--frsd-16: "16px";
+	--frsd-20: "20px";
+	--frsd-24: "24px";
+	--frsd-32: "32px";
+	--frsd-40: "40px";
+	--frsd-48: "48px";
+
+	/* box shadow */
+	--frsd-light: "0px 2px 5px rgba(0, 0, 0, 0.05)";
+	--frsd-regular: "0px 4px 10px rgba(0, 0, 0, 0.05), 0px 2px 5px rgba(0, 0, 0, 0.05)";
+	--frsd-medium: "0px 4px 20px 5px rgba(0, 0, 0, 0.05), 0px 3px 10px rgba(0, 0, 0, 0.1)";
+	--frsd-bold: "0px 4px 50px 5px rgba(0, 0, 0, 0.05), 1px 3px 20px rgba(0, 0, 0, 0.05), 0px 10px 30px rgba(0, 0, 0, 0.1)";
+}

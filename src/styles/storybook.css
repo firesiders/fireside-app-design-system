@@ -1,0 +1,35 @@
+/* css for only stories */
+
+/* reset css
+ * storybook 기본 css 룰이 있으니 필요할 때 필요한거 추가
+ */
+ul,
+ol,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+html section {
+	max-width: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+/* element css */
+/* header for page */
+h3 {
+	font-size: 24px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid var(--greyScale5);
+	padding-bottom: 8px;
+	font-weight: bold;
+	color: var(--greyScale10);
+}
+
+/* default css for code */
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

@@ -1,0 +1,30 @@
+.typeset {
+	padding: 0;
+	margin: 20px 0;
+}
+
+.typeset__inner {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.typeset__item {
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.typeset__item p {
+	margin: 0;
+}
+
+.typeset__info {
+	min-width: 160px;
+	text-align: left;
+}
+
+.typeset__info span {
+	display: inline-block;
+	margin: 0 4px;
+	font-size: inherit;
+}

@@ -1,0 +1,33 @@
+.borderRadius {
+	display: flex;
+	align-items: end;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.borderRadiusItem {
+	background-color: var(--frsdBlue7);
+}
+
+.borderRadiusInfo {
+	min-height: 240px;
+	margin-top: 16px;
+}
+
+.borderRadiusInfo p {
+	font-weight: var(--bold);
+	font-size: var(--font-size16pt);
+	line-height: var(--line-height16pt);
+}
+
+.borderRadiusInfo .borderRadiusCode {
+	font-weight: var(--regular);
+	font-size: var(--font-size12pt);
+	line-height: var(--line-height12pt);
+	margin-bottom: 40px;
+}
+
+.borderRadiusInfo ul {
+	line-height: 1.5;
+	font-size: var(--font-size14pt);
+}

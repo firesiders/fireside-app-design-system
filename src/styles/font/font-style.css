@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "Pretendard";
+	src: url("../../assets/font/Pretendard-Regular.woff2") format("woff2"),
+		url("../../assets/font/Pretendard-Regular.woff") format("woff"),
+		url("../../assets/font/Pretendard-Regular.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("../../assets/font/Pretendard-Medium.woff2") format("woff2"),
+		url("../../assets/font/Pretendard-Medium.woff") format("woff"),
+		url("../../assets/font/Pretendard-Medium.otf") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("../../assets/font/Pretendard-Bold.woff2") format("woff2"),
+		url("../../assets/font/Pretendard-Bold.woff") format("woff"),
+		url("../../assets/font/Pretendard-Bold.otf") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+:root {
+	--font-size10pt: 10px;
+	--font-size12pt: 12px;
+	--font-size14pt: 14px;
+	--font-size16pt: 16px;
+	--font-size20pt: 20px;
+
+	--line-height10pt: 16px;
+	--line-height12pt: 20px;
+	--line-height14pt: 22px;
+	--line-height16pt: 24px;
+	--line-height20pt: 30px;
+
+	--regular: 400;
+	--semi-bold: 500;
+	--bold: 700;
+}
+
+* {
+	font-family: "Pretendard";
+}
